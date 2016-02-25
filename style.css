@@ -1,0 +1,73 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://jaehosong.com/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+body {
+    background-color: #d5d5d5;
+}
+body, a, td, button, input {
+    font-family: "Malgun Gothic", serif;
+}
+
+
+/* 사이트 제목의 상/하단 여백 및 색상, 등 조정 */
+.site-header {
+
+    padding: .4em 7.6923%;
+    background-color: #d5d5d5;
+}
+.site-header h1 {
+    font-weight: normal;
+    font-size:1.4rem;
+}
+
+/* 작은 화면에서 메뉴 */
+.menu-toggle {
+    background-color: #ffffff;
+    font-size: .9rem;
+}
+
+
+/**
+ * 14.1 - >= 710px
+ */
+@media screen and (min-width: 44.375em) {
+    body:not(.custom-background-image):before,
+    body:not(.custom-background-image):after {
+        height: 4px; /* 상/하단 border 너비. */
+    }
+    .site {
+        margin:4px; /* 좌/우 border 너비 */
+    }
+}
+
+
+/**
+ * 14.3 - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {
+    .site-header {
+        padding: 1em 4.5455%; /* 910 px 에서 content 의 여백이 좁아지는데, header 의 여백도 같이 맞춘다. */
+    }
+}
+
+
+/**
+ * 14.5 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+    .site-header {
+        background-color:white;
+    }
+}
