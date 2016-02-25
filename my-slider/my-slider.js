@@ -1,3 +1,4 @@
+window.addEventListener("load", function() {
 var $ = jQuery;
 $(function(){
 
@@ -82,3 +83,4 @@ $(function(){
     }
 });
 
+});
