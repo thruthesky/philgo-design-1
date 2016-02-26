@@ -12,7 +12,7 @@ $(function(){
     var zIndex = 100;
     var mouseIn = false;
     var direction = 'right-to-left';
-    var intervalPage = 2000;
+    var intervalPage = 8000;
 
     // action
     animate();
