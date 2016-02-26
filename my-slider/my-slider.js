@@ -6,8 +6,8 @@ $(function(){
     var $container = $('.container');
     var $slider = $('#slider');
     var $li = $slider.find('li');
-    var $nav_left = $slider.find('nav img:eq(0)');
-    var $nav_right = $slider.find('nav img:eq(1)');
+    var $nav_left = $slider.find('nav i:eq(0)');
+    var $nav_right = $slider.find('nav i:eq(1)');
     var active = 0;
     var zIndex = 100;
     var mouseIn = false;
