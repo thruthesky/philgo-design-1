@@ -96,4 +96,4 @@
         </header><!-- .site-header -->
 
         <div id="content" class="site-content">
-            <?php include get_stylesheet_directory() . '/my-slider/my-slider.php'; ?>
+            <?php /* include get_stylesheet_directory() . '/my-slider/my-slider.php'; */ ?>
