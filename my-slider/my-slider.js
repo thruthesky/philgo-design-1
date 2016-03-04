@@ -2,17 +2,17 @@ window.addEventListener("load", function() {
     var $ = jQuery;
     $(function(){
 
-        // vars
-        var $container = $('.container');
-        var $slider = $('#slider');
-        var $li = $slider.find('li');
-        var $nav_left = $slider.find('nav i:eq(0)');
-        var $nav_right = $slider.find('nav i:eq(1)');
-        var active = 0;
-        var zIndex = 100;
-        var mouseIn = false;
-        var direction = 'right-to-left';
-        var intervalPage = 5000;
+    // vars
+    var $container = $('.container');
+    var $slider = $('#slider');
+    var $li = $slider.find('li');
+    var $nav_left = $slider.find('nav i:eq(0)');
+    var $nav_right = $slider.find('nav i:eq(1)');
+    var active = 0;
+    var zIndex = 100;
+    var mouseIn = false;
+    var direction = 'right-to-left';
+    var intervalPage = 8000;
 
         // action
         animate();
